@@ -1,90 +1,129 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Noto Serif');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 #body {
-    margin: 0px 0px 0px 0px;
-    font-family: Roboto;
+    margin: 0px;
+}
+
+.container {
+    float: left;
+    clear: left;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
+    float: left;
     width: 100%;
-    height: 90px;
-    font-size: 18px;
     background-color: #000;
     position: fixed;
 }
 
 .header .logo {
     float: left;
-    position: center;
-    padding: 25px 50px 0px 40px;
+    clear: left;
+    padding: 25px 50px 25px 50px;
 }
 
-.header .nav_name {
+.header .nav_menu {
     float: right;
-    padding: 25px 10px;
+    text-align: left;
 }
 
-.header .nav_name a {
-    text-align: center;
-    font: "Noto Serif";
-    font-size: 18px;
+.navbar {
+    float: left;
+    display: block;
+}
+
+.navbar a {
     color: #FFF;
-    padding: 0px 10px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 15px 0px 15px;
     text-decoration: none;
 }
 
-.header .nav_name a:hover {
-    color: #4AAB00;
-}
-
-.pipe {
-    display: inline-block;
-    color: #FFF;
-    text-align: center;
-    font-weight: bold;
-}
-
-.button {
-    color: #fff;
+.link {
+    float: left;
     font-size: 18px;
+    color: #FFF;
+    margin: 35px 60px 24px 0px;
+}
+
+.micon {
+    float: left;
+    margin: 35px 30px 24px 0px;
+}
+
+.but {
+    float: left;
+    margin: 24px 80px 24px 0px;
+}
+
+.header .button {
+    width: 120px;
+    height: 42px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
     background-color: #4AAB00;
     border-style: none;
     border-radius: 5px;
-    padding: 10px 18px;
+    padding: 11px 27px 11px 27px;
 }
 
 .banner {
-    width: 100%;
     height: 800px;
     background-image: url('../images/banner_image.png');
-    background-position: center;
+    margin-top: 94px;
 }
 
 .banner .b_containt {
-    float: left;
-    text-align: left;
-    padding: 180px 380px 20px 43px;
+    margin: auto;
+    width: 1280px;
 }
 
-.banner h1 {
+.banner .b_containt .containt {
+    float: left;
+    width: 747px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Roboto";
+    margin-top: 40px;
+}
+
+.banner .head {
+    width: 788px;
+    margin-top: 233px;
     color: #ECFFED;
     font-size: 60px;
     font-weight: Bold;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
 }
 
-.banner h2 {
-    color: #FFFFFF;
-    font-size: 20px;
-    margin-right: 130px;
-    margin-bottom: 50px;
-    font-weight: normal;
-    font-family: 'Roboto';
+.banner .but {
+    clear: left;
+    float: left;
+}
+
+.button {
+    background-color: #4AAB00;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner .button {
+    float: left;
+    clear: left;
+    width: 164px;
+    height: 50px;
+    margin: 50px 0px 233px;
 }
 
 .about {
-    width: 100%;
-    height: 900px;
     background-color: #F5F5F5;
 }
 
@@ -93,28 +132,28 @@
     width: 1280px;
 }
 
-.about h1 {
+.head {
     font-size: 60px;
-    font-weight: Bold;
-    font-family: 'Noto Serif';
-    color: hsl(94, 100%, 34%);
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    color: #4AAB00;
 }
 
-hr {
-    background-color: #4AAB00;
-    color: #4AAB00;
-    margin: 0px;
-    width: 140px;
-    height: 2px;
+.border {
+    width: 160px;
+    border-top: #4AAB00;
+    border-top-style: solid;
 }
 
 .about .ab_containt .left_para {
     width: 550px;
     float: left;
-    font-weight: normal;
-    font-family: 'Roboto';
-    font-size: 24px;
     margin-top: 131px;
+}
+
+.about .ab_containt .left_para .para {
+    margin: left;
+    font-size: 24px;
     color: #4E4E4E;
 }
 
@@ -122,49 +161,52 @@ hr {
     width: 604px;
     height: 620px;
     float: right;
-    background-image: url('../images/about_img.png');
-    box-shadow: 15px 15px 40px grey;
+    box-shadow: 20px 20px 30px #2727276B;
     margin-top: 120px;
+    margin-bottom: 160px;
 }
 
 .about .button {
     width: 152px;
     height: 50px;
-    margin: 40px 0px 40px 0;
-    padding: 15px 25px 15px 25px;
+    border-radius: 4px;
+    margin-top: 64px;
 }
 
 .specialities {
-    width: 100%;
-    height: 870px;
-    background-image: url("../images/speciality_bg.jpg");
     text-align: center;
-    padding: 1px;
+    background-image: url("../images/speciality_bg.jpg");
 }
 
-.specialities h1 {
-    font-size: 60px;
-    font-family: 'Noto Serif';
-    color: #4AAB00;
+.specialities .head {
     margin-top: 130px;
 }
 
 .specialities .s_containt {
+    margin: auto;
+    width: 752px;
     font-size: 24px;
     color: #FFF;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
 
 .specialities .cardrow {
     margin: auto;
     width: 1280px;
-    margin-top: 95px;
+}
+
+.specialities .cardrow .row {
+    clear: both;
+    width: 100%;
+    float: left;
+    margin-top: 90px;
+    margin-bottom: 196px;
 }
 
 .specialities .cardrow .card_pos {
     float: left;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 28px 0px 28px;
 }
 
 .specialities .cardrow .card img {
@@ -175,10 +217,11 @@ hr {
 .specialities .cardrow .card {
     width: 264px;
     height: 300px;
-    padding: 5px;
+    padding: 5px 0px 0px 0px;
     background-color: #FFF;
     text-align: center;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
+    ;
     ;
 }
 
@@ -188,176 +231,184 @@ hr {
 }
 
 .menu {
-    width: 100%;
     background-image: url("../images/menu_bg.png");
     text-align: center;
-    padding: 1px;
 }
 
-.menu h1 {
-    font-size: 60px;
-    font-family: 'Noto Serif';
-    color: #4AAB00;
-    margin: 60px 0px 5px;
+.menu .head {
+    clear: left;
+    margin-top: 115px;
 }
 
-.menu h2 {
-    font-size: 24px;
-    font-family: 'Roboto';
-    color: #52524B;
-    font-weight: normal;
+.menu .border {
+    clear: left;
+    margin: auto;
+    width: 120px;
 }
 
 .menu .m_containt {
     margin: auto;
-    width: 1280px;
-    text-align: center;
 }
 
-.menu .m_containt .menutable {
+.menu .m_containt {
+    clear: left;
+    font-size: 24px;
+    color: #52524B;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu .table {
+    clear: left;
     margin: auto;
+    width: 1280px;
+}
+
+.menu .menutable {
+    float: left;
     width: 100%;
     text-align: left;
-    padding-top: 85px;
+    clear: left;
 }
 
 .extra1 {
+    clear: left;
     width: 45%;
     float: left;
+    clear: left;
+    margin-top: 84px;
 }
 
 .extra2 {
+    clear: right;
     width: 45%;
     float: right;
+    margin-top: 84px;
 }
 
-.menu .m_containt .hr {
-    margin: auto;
-    width: 120px;
-}
-
-.menu .m_containt .hr hr {
-    background-color: #4AAB00;
-    border-color: #4AAB00;
-    width: 120px;
-    margin-top: 5px;
-    height: 1px;
-    margin-bottom: 55px;
-}
-
-.menu .m_containt .menu_table .hd {
-    margin: auto;
+.menu .menu_table .hd {
     width: 100%;
+    clear: left;
 }
 
-.menu .m_containt .menu_table .hd .l_hd {
+.menu .menu_table .hd .l_hd {
     width: 50%;
     float: left;
+    clear: left;
     text-align: left;
     font-size: 32px;
     color: #4AAB00;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
     font-weight: bold;
 }
 
-.menu .m_containt .menu_table .hd .item_name {
+.menu .menu_table .hd .item_name {
     width: 50%;
     float: left;
+    clear: left;
     text-align: left;
     font-size: 24px;
     color: #75C23A;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
     font-weight: normal;
     padding-top: 15px;
 }
 
-.menu .m_containt .menu_table .item_desc {
+.menu .menu_table .item_desc {
     margin: auto;
     width: 100%;
     display: block;
+    clear: left;
 }
 
-.menu .m_containt .menu_table .desc {
+.menu .menu_table .desc {
     width: 70%;
     float: left;
     text-align: left;
     font-size: 20px;
     color: #717070;
     padding-bottom: 20px;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
+    clear: left;
 }
 
-.menu .m_containt .menu_table .price {
+.menu .menu_table .price {
     width: 30%;
     float: left;
     text-align: right;
     font-size: 40px;
     color: #4AAB00;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
 }
 
 .menu .button {
-    width: 165;
-    height: 55;
+    width: 165px;
+    height: 55px;
     border-radius: 5px;
     font-size: 18px;
     color: #fff;
-    text-align: center;
-    padding: 17px 29px 12px 29px;
-    margin-top: 85px;
-    margin-bottom: 75px;
+    margin-top: 148px;
+    margin-bottom: 85px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .booking {
-    width: 100%;
     background-image: url("../images/footer_bg.jpg");
-    background-position: center;
     text-align: center;
-    padding: 1px;
 }
 
-.booking h1 {
-    font-size: 60px;
-    font-family: 'Noto Serif';
-    color: #4AAB00;
-    margin-top: 80px;
+.booking .head {
+    clear: left;
+    margin-top: 105px;
 }
 
-.booking h2 {
-    font-size: 20px;
-    font-family: 'Roboto';
-    font-weight: normal;
-    color: #FFF;
-    margin-top: 1px;
-    padding: 0px 0px 40px;
+.booking .b_containt {
+    clear: left;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #F5F5F5;
+    margin-top: 5px;
+}
+
+.ab_containt {
+    margin: auto;
+    width: 1280px;
+    clear: left;
+}
+
+.lbl {
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+label {
+    color: #96DF5F;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
 }
 
 .booking .i_space {
     float: left;
-    text-align: left;
-    font-family: 'Noto Serif';
-    font-size: 22px;
-    color: #96DF5F;
-    font-weight: normal;
-    padding: 0px 20px 0px 20px;
-}
-
-.inp {
-    margin-top: 5px;
 }
 
 form {
-    margin: auto;
-    width: 1280px;
+    margin-top: 68px;
+    margin-bottom: 85px;
+}
+
+.i1 {
+    margin-left: 38px;
+}
+
+.sub {
+    clear: left;
 }
 
 .inp input {
+    width: 274px;
     font-size: 22px;
-    font-family: 'Noto Serif';
-    color: #F9F9F9;
-    height: 44px;
-    width: 250px;
-    padding-left: 20px;
+    font-family: 'Noto Serif', serif;
+    color: #000;
+    padding: 10px 0px 10px 13px;
 }
 
 .booking .button {
@@ -365,41 +416,44 @@ form {
     height: 56px;
     border-radius: 0px;
     color: #FFF;
-    font-family: 'Noto Serif';
+    font-family: 'Noto Serif', serif;
     margin-top: 86px;
-    margin-bottom: 114px;
     text-align: center;
 }
 
 .footer {
+    float: left;
+    clear: left;
     width: 100%;
     height: 124px;
     color: #FFF;
     background-color: #000;
-    padding: 0px 0px 0px 0px;
 }
 
 .footer .f_logo {
     float: left;
+    clear: left;
     color: #ECFFED;
     padding: 30px;
 }
 
 .footer .f_logo .f_containt {
+    clear: left;
     color: #fff;
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     padding: 5px 0px;
     font-weight: normal;
 }
 
 .footer .social {
     float: right;
+    clear: right;
     display: block;
 }
 
 .footer .social h2 {
-    font-family: 'Noto serif';
+    font-family: 'Noto Serif', serif;
     font-weight: normal;
     font-size: 20px;
     color: #4AAB00;
@@ -408,6 +462,7 @@ form {
 
 .footer .social .icon {
     float: right;
+    clear: left;
     text-align: left;
     border: solid;
     border-width: 1px;
@@ -417,39 +472,31 @@ form {
 }
 
 .footer .social .soc_icn {
+    clear: left;
     margin-top: 25px;
     margin-right: 80px;
     text-align: center;
 }
 
-.fb {
+.si {
     width: 32px;
     height: 32px;
-    background-image: url('../images/fb_icon.png');
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.fb {
+    background-image: url('../images/fb_icon.png');
 }
 
 .yt {
-    width: 32px;
-    height: 32px;
     background-image: url('../images/you_tube_icon.png');
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .gplus {
-    width: 32px;
-    height: 32px;
     background-image: url('../images/g_plus_icon.png');
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .tw {
-    width: 32px;
-    height: 32px;
     background-image: url('../images/twitter_icon.png');
-    background-position: center;
-    background-repeat: no-repeat;
 }
