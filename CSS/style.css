@@ -5,9 +5,12 @@
     margin: 0px;
 }
 
-.container {
-    float: left;
+.cleardiv {
     clear: left;
+}
+
+.section {
+    float: left;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +18,6 @@
 }
 
 .header {
-    float: left;
     width: 100%;
     background-color: #000;
     position: fixed;
@@ -23,18 +25,15 @@
 
 .header .logo {
     float: left;
-    clear: left;
-    padding: 25px 50px 25px 50px;
+    padding: 25px 0px 25px 80px;
 }
 
 .header .nav_menu {
     float: right;
-    text-align: left;
 }
 
 .navbar {
     float: left;
-    display: block;
 }
 
 .navbar a {
@@ -86,16 +85,14 @@
 }
 
 .banner .b_containt .containt {
-    float: left;
-    width: 747px;
+    width: 745px;
     color: #FFF;
     font-size: 20px;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
     margin-top: 40px;
 }
 
 .banner .head {
-    width: 788px;
     margin-top: 233px;
     color: #ECFFED;
     font-size: 60px;
@@ -103,12 +100,8 @@
     font-family: 'Noto Serif', serif;
 }
 
-.banner .but {
-    clear: left;
-    float: left;
-}
-
 .button {
+    border-style: none;
     background-color: #4AAB00;
     color: #FFF;
     font-size: 18px;
@@ -116,8 +109,6 @@
 }
 
 .banner .button {
-    float: left;
-    clear: left;
     width: 164px;
     height: 50px;
     margin: 50px 0px 233px;
@@ -125,11 +116,6 @@
 
 .about {
     background-color: #F5F5F5;
-}
-
-.ab_containt {
-    margin: auto;
-    width: 1280px;
 }
 
 .head {
@@ -143,6 +129,7 @@
     width: 160px;
     border-top: #4AAB00;
     border-top-style: solid;
+    border-width: 2px;
 }
 
 .about .ab_containt .left_para {
@@ -152,18 +139,19 @@
 }
 
 .about .ab_containt .left_para .para {
-    margin: left;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #4E4E4E;
 }
 
 .about .ab_containt .right_para {
-    width: 604px;
-    height: 620px;
     float: right;
-    box-shadow: 20px 20px 30px #2727276B;
     margin-top: 120px;
     margin-bottom: 160px;
+}
+
+.about .ab_containt .right_para img {
+    box-shadow: 20px 20px 30px #2727276B;
 }
 
 .about .button {
@@ -184,8 +172,9 @@
 
 .specialities .s_containt {
     margin: auto;
-    width: 752px;
+    width: 1280px;
     font-size: 24px;
+    text-align: center;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
@@ -197,9 +186,7 @@
 }
 
 .specialities .cardrow .row {
-    clear: both;
     width: 100%;
-    float: left;
     margin-top: 90px;
     margin-bottom: 196px;
 }
@@ -209,103 +196,72 @@
     padding: 0px 28px 0px 28px;
 }
 
-.specialities .cardrow .card img {
-    width: 254px;
-    height: 220px;
-}
-
 .specialities .cardrow .card {
     width: 264px;
-    height: 300px;
     padding: 5px 0px 0px 0px;
     background-color: #FFF;
-    text-align: center;
     font-family: 'Noto Serif', serif;
-    ;
-    ;
 }
 
 .specialities .cardrow .card .price {
     font-size: 24px;
-    padding: 20px 0px 5px;
+    padding: 24px 0px 24px;
 }
 
 .menu {
     background-image: url("../images/menu_bg.png");
-    text-align: center;
 }
 
 .menu .head {
-    clear: left;
+    text-align: center;
     margin-top: 115px;
 }
 
 .menu .border {
-    clear: left;
     margin: auto;
     width: 120px;
+    border-width: 3px;
 }
 
 .menu .m_containt {
-    margin: auto;
-}
-
-.menu .m_containt {
-    clear: left;
     font-size: 24px;
     color: #52524B;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .menu .table {
-    clear: left;
     margin: auto;
     width: 1280px;
 }
 
-.menu .menutable {
-    float: left;
-    width: 100%;
-    text-align: left;
-    clear: left;
-}
-
 .extra1 {
-    clear: left;
     width: 45%;
     float: left;
-    clear: left;
     margin-top: 84px;
 }
 
 .extra2 {
-    clear: right;
     width: 45%;
     float: right;
     margin-top: 84px;
 }
 
-.menu .menu_table .hd {
-    width: 100%;
-    clear: left;
-}
-
-.menu .menu_table .hd .l_hd {
+.menu .l_hd {
     width: 50%;
-    float: left;
-    clear: left;
-    text-align: left;
     font-size: 32px;
     color: #4AAB00;
     font-family: 'Noto Serif', serif;
     font-weight: bold;
 }
 
-.menu .menu_table .hd .item_name {
-    width: 50%;
+.menu .table .border {
     float: left;
-    clear: left;
-    text-align: left;
+    width: 100px;
+    border-width: 3px;
+}
+
+.menu .item_name {
     font-size: 24px;
     color: #75C23A;
     font-family: 'Noto Serif', serif;
@@ -313,17 +269,9 @@
     padding-top: 15px;
 }
 
-.menu .menu_table .item_desc {
-    margin: auto;
-    width: 100%;
-    display: block;
-    clear: left;
-}
-
-.menu .menu_table .desc {
+.menu .desc {
     width: 70%;
     float: left;
-    text-align: left;
     font-size: 20px;
     color: #717070;
     padding-bottom: 20px;
@@ -331,13 +279,17 @@
     clear: left;
 }
 
-.menu .menu_table .price {
+.menu .price {
     width: 30%;
     float: left;
     text-align: right;
     font-size: 40px;
     color: #4AAB00;
     font-family: 'Noto Serif', serif;
+}
+
+.menu .butt {
+    text-align: center;
 }
 
 .menu .button {
@@ -357,12 +309,10 @@
 }
 
 .booking .head {
-    clear: left;
     margin-top: 105px;
 }
 
 .booking .b_containt {
-    clear: left;
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     color: #F5F5F5;
@@ -372,7 +322,6 @@
 .ab_containt {
     margin: auto;
     width: 1280px;
-    clear: left;
 }
 
 .lbl {
@@ -404,11 +353,11 @@ form {
 }
 
 .inp input {
-    width: 274px;
+    width: 261px;
     font-size: 22px;
     font-family: 'Noto Serif', serif;
     color: #000;
-    padding: 10px 0px 10px 13px;
+    padding: 10px 13px 10px 13px;
 }
 
 .booking .button {
@@ -423,7 +372,6 @@ form {
 
 .footer {
     float: left;
-    clear: left;
     width: 100%;
     height: 124px;
     color: #FFF;
@@ -434,7 +382,7 @@ form {
     float: left;
     clear: left;
     color: #ECFFED;
-    padding: 30px;
+    padding: 33px 0px 0px 80px;
 }
 
 .footer .f_logo .f_containt {
@@ -448,8 +396,8 @@ form {
 
 .footer .social {
     float: right;
-    clear: right;
     display: block;
+    text-align: center;
 }
 
 .footer .social h2 {
@@ -461,9 +409,7 @@ form {
 }
 
 .footer .social .icon {
-    float: right;
-    clear: left;
-    text-align: left;
+    float: left;
     border: solid;
     border-width: 1px;
     width: 32px;
@@ -472,10 +418,8 @@ form {
 }
 
 .footer .social .soc_icn {
-    clear: left;
     margin-top: 25px;
     margin-right: 80px;
-    text-align: center;
 }
 
 .si {
