@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+#body {
+    margin: 0px 0px 0px 0px;
+}
+
+.clear {
+    clear: left;
+}
+
+.section {
+    width: 100%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.containt {
+    margin: auto;
+    width: 1280px;
+    padding-top: 100px;
+}
+
+.navigation {
+    width: 100%;
+    position: fixed;
+    background-color: #FFF;
+}
+
+.navigation .logo {
+    float: left;
+    width: 92px;
+    height: 92px;
+    margin: 12px 0px 12px 110px;
+}
+
+.navigation .infosite p {
+    font-size: 12px;
+    color: #8D8D8D;
+    font-family: 'Lato', sans-serif;
+    margin: 0px 0px 0px;
+}
+
+.navigation .infosite {
+    float: right;
+    text-align: right;
+    margin: 16px 110px 0px;
+}
+
+.navigation .navbar {
+    float: right;
+    font-size: 16px;
+    margin: 35px 0px 27px;
+}
+
+.navigation .navbar a {
+    margin-left: 25px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+    background-image: url('../images/banner_bg.png');
+    margin-top: 118px;
+}
+
+.banner h1 {
+    font-size: 80px;
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.banner h2 {
+    font-size: 52px;
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    line-height: 20px;
+}
+
+.banner h3 {
+    font-size: 30px;
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+
+.banner .containt {
+    margin-bottom: 280px;
+}
+
+.about {
+    background-image: url('../images/logo_symbol.png');
+    background-position: right;
+    background-size: 50%;
+}
+
+.about .containt {
+    padding: 0px;
+}
+
+.about .article {
+    float: left;
+    text-align: left;
+    margin: 100px 0px 100px;
+}
+
+.about .article #p1 {
+    width: 620px;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: #292929;
+    margin-bottom: 41px;
+}
+
+.about .article #p2 {
+    width: 635px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #636363;
+}
+
+.about .lady {
+    float: left;
+    margin: 50px 0px 0px 196px;
+}
+
+.consultation {
+    background-image: url('../images/middle_banner.png');
+}
+
+.bg {
+    width: 100%;
+    background-color: rgba(8, 114, 186, 0.7);
+}
+
+.consultation p {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    line-height: 15px;
+}
+
+.consultation .button {
+    font-size: 20px;
+    color: #FFF;
+    background-color: #F79421;
+    padding: 15px 55px 13px 55px;
+    margin: 45px 0px 100px 0px;
+    border-style: none;
+}
+
+.service {
+    background-color: #FEFEFE;
+    text-align: center;
+}
+
+.service h1 {
+    font-size: 36px;
+    color: #292929;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.service h2 {
+    font-size: 20px;
+    color: #292929;
+    font-family: 'Lato', sans-serif;
+}
+
+.services {
+    margin-top: 81px;
+}
+
+.service .services .card {
+    float: left;
+    width: 230px;
+    height: 157px;
+}
+
+.service .services .c {
+    margin-left: 120px;
+}
+
+.service .containt {
+    margin-bottom: 100px;
+}
+
+.service .services img {
+    width: 44px;
+    height: 48px;
+}
+
+.service .services h1 {
+    font-size: 14px;
+    color: #143763;
+    margin-top: 15px;
+}
+
+.service .services h2 {
+    font-size: 12px;
+    color: #636363;
+}
+
+.border {
+    width: 52px;
+    border-top: #F79421;
+    border-top-style: solid;
+    border-width: 2px;
+    margin: 5px 0px 10px 89px;
+}
+
+.figures {
+    background-image: url('../images/figures_bg.png');
+}
+
+.figures h1 {
+    margin-top: 100px;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    line-height: 10px;
+}
+
+.figures .numbers {
+    margin: auto;
+    width: 960px;
+    height: 100px;
+    padding: 45px 0px 100px;
+}
+
+.figures .numbers .f {
+    height: 110px;
+    float: left;
+}
+
+.figures .numbers .f h1 {
+    font-size: 59px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.figures .numbers .f h2 {
+    font-size: 20px;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+}
+
+.figures .numbers .f1 {
+    width: 130px;
+}
+
+.figures .numbers .f2 {
+    width: 76px;
+    margin-left: 168px;
+}
+
+.figures .numbers .f3 {
+    width: 116px;
+    margin-left: 168px;
+}
+
+.figures .numbers .f4 {
+    width: 116px;
+    margin-left: 168px;
+}
+
+.business .clients {
+    width: 50%;
+    background-image: url('../images/business.png');
+    text-align: right;
+}
+
+.business .clients {
+    margin-top: 0px;
+}
+
+.business .clients .cont {
+    float: right;
+    padding: 189px 112px 64px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+}
+
+.business .clients .cont p {
+    line-height: 5px;
+}
+
+.business .clients .cont a {
+    font-size: 22px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.business .clients .clientbar {
+    float: right;
+    width: 640px;
+    height: 97px;
+    background-color: rgba(141, 141, 141, 0.6);
+    text-align: left;
+    margin: 0px 0px 20px;
+}
+
+.business .clients .clientbar h1 {
+    color: #FFF;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 16px 0px 4px 22px;
+}
+
+.business .clients .clientbar h2 {
+    margin: 0px;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    padding: 0px 0px 19px 22px;
+}
+
+.business .case_study {
+    width: 50%;
+    float: right;
+    background-color: #E6E6E6;
+    text-align: left;
+}
