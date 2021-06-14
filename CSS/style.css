@@ -493,7 +493,7 @@
 }
 
 .people .photobar .photos .l {
-    margin-left: 95px;
+    margin-left: 100px;
 }
 
 .people .photobar .photos .image img {
@@ -509,7 +509,7 @@
     color: #FFF;
     border-style: solid;
     border-width: 2px;
-    margin: 90px 0px 0px 70px;
+    margin: 90px 0px 0px 65px;
 }
 
 .people .photobar .photos .auro img {
