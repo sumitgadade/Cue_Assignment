@@ -33,28 +33,31 @@
     background-color: #FFF;
 }
 
+.navigation .nav {
+    width: 1280px;
+    margin: auto;
+}
+
 .navigation .logo {
     float: left;
     width: 92px;
     height: 92px;
-    margin: 12px 0px 13px 110px;
+    margin: 0px 0px 13px 0px;
 }
 
 .navigation .infosite p {
     font-size: 12px;
     color: #8D8D8D;
     font-family: 'Lato', sans-serif;
-    margin: 0px 0px 0px;
+    margin: 0px;
 }
 
 .navigation .infosite {
-    float: right;
     text-align: right;
-    margin: 16px 110px 0px;
+    margin-top: 16px;
 }
 
 .navigation .navbar {
-    float: right;
     font-size: 16px;
     margin: 34px 0px 27px;
 }
@@ -64,6 +67,7 @@
     color: #000000;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .banner {
@@ -75,22 +79,25 @@
     font-size: 80px;
     color: #292929;
     font-family: 'Poppins', sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 80px;
 }
 
 .banner h2 {
     font-size: 52px;
     color: #292929;
     font-family: 'Poppins', sans-serif;
-    margin-top: 0px;
-    line-height: 20px;
+    font-weight: 600;
+    margin: 0px;
+    line-height: 52px;
 }
 
 .banner h3 {
     font-size: 30px;
     color: #292929;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     margin-top: 30px;
 }
 
@@ -98,26 +105,28 @@
     margin-bottom: 280px;
 }
 
-.about .background {
+.about {
+    width: 100%;
     background-image: url('../images/logo_symbol.png');
     background-position: right;
-    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .about .containt {
-    padding: 0px;
+    width: 50%;
+    float: left;
 }
 
 .about .article {
-    float: left;
+    float: right;
     text-align: left;
-    margin: 100px 0px 93px;
 }
 
 .about .article #p1 {
     width: 620px;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     color: #292929;
     margin-bottom: 41px;
 }
@@ -126,12 +135,19 @@
     width: 635px;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     color: #636363;
+}
+
+.about .colourfull {
+    color: #0872BA;
 }
 
 .about .lady {
     float: left;
-    margin: 50px 0px 0px 196px;
+    width: 236px;
+    height: 490px;
+    margin: 54px 0px 0px 211px;
 }
 
 .consultation {
@@ -139,7 +155,6 @@
 }
 
 .bg {
-    width: 100%;
     background-color: rgba(8, 114, 186, 0.7);
 }
 
@@ -147,7 +162,9 @@
     font-size: 20px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    line-height: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0px;
 }
 
 .button {
@@ -168,6 +185,7 @@
     font-size: 36px;
     color: #292929;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     margin: 0px;
 }
 
@@ -175,9 +193,10 @@
     font-size: 20px;
     color: #292929;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
-.services {
+.service .services {
     margin-top: 81px;
 }
 
@@ -223,38 +242,45 @@
     background-image: url('../images/figures_bg.png');
 }
 
-.figures h1 {
-    margin-top: 100px;
+.figures .cont {
+    margin: auto;
+    width: 1280px;
+}
+
+.figures .heading {
+    margin: auto;
+    width: 668px;
+    padding-top: 100px;
     color: #FFF;
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    font-weight: normal;
-    line-height: 10px;
+    font-weight: 300;
 }
 
 .figures .numbers {
     margin: auto;
     width: 960px;
-    height: 100px;
-    padding: 45px 0px 100px;
+    padding-bottom: 100px;
 }
 
 .figures .numbers .f {
-    height: 110px;
     float: left;
 }
 
 .figures .numbers .f h1 {
     font-size: 59px;
+    margin: 0px;
     color: #FFF;
     font-family: 'Poppins', sans-serif;
-    margin-top: 20px;
+    font-weight: 400;
 }
 
 .figures .numbers .f h2 {
+    margin: 0px;
     font-size: 20px;
     color: #FFF;
     font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
 
 .figures .numbers .f1 {
@@ -262,18 +288,18 @@
 }
 
 .figures .numbers .f2 {
-    width: 76px;
-    margin-left: 168px;
+    width: 87px;
+    margin-left: 170px;
 }
 
 .figures .numbers .f3 {
     width: 116px;
-    margin-left: 168px;
+    margin-left: 170px;
 }
 
 .figures .numbers .f4 {
     width: 116px;
-    margin-left: 168px;
+    margin-left: 170px;
 }
 
 .business .clients {
@@ -281,6 +307,8 @@
     background-image: url('../images/business.png');
     text-align: right;
 }
+
+.business {}
 
 .business .clients {
     margin-top: 0px;
@@ -292,27 +320,35 @@
 
 .business .clients .cont {
     float: right;
-    padding: 189px 112px 64px;
+    width: 640px;
+    padding: 189px 0px 64px;
     text-align: center;
     color: #FFFFFF;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .business .clients .cont p {
-    line-height: 5px;
+    margin: 0px;
+}
+
+.business .play {
+    padding-top: 18px;
 }
 
 .business .clients .cont a {
+    padding-top: 18px;
     font-size: 22px;
     color: #FFF;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .business .clients .clientbar {
     float: right;
     width: 640px;
     height: 97px;
-    background-color: rgba(141, 141, 141, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
     text-align: left;
     margin: 0px 0px 20px;
 }
@@ -321,6 +357,7 @@
     color: #FFF;
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     margin: 0px;
     padding: 16px 0px 4px 22px;
 }
@@ -330,7 +367,7 @@
     color: #FFF;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
-    font-weight: Normal;
+    font-weight: 400;
     padding: 0px 0px 19px 22px;
 }
 
@@ -342,41 +379,44 @@
 }
 
 .business .case_study .containt {
-    width: 100%;
-    text-align: left;
-    margin-top: 44px;
-    padding: 0px;
+    width: 640px;
+    float: left;
+    padding-top: 44px;
 }
 
 .business .case_study .dell {
+    margin: auto;
+    text-align: center;
     width: 126px;
     height: 126px;
-    margin: 0px 0px 0px 240px;
+}
+
+.business .case_study .dell img {
+    padding-bottom: 19px;
 }
 
 .business .case_study .cont {
-    float: left;
-    padding: 19px 0px 64px 112px;
+    margin: auto;
+    width: 640px;
     text-align: center;
     color: #143763;
     font-family: 'Lato', sans-serif;
-}
-
-.business .case_study .cont p {
-    line-height: 5px;
+    font-family: 400;
+    padding-bottom: 69px;
 }
 
 .business .case_study .cont a {
     font-size: 22px;
     color: #143763;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .business .case_study .clientbar {
     float: left;
     width: 640px;
     height: 97px;
-    background-color: rgba(141, 141, 141, 0.6);
+    background-color: rgba(0, 0, 0, 0.1);
     text-align: right;
     margin: 0px 0px 20px;
 }
@@ -385,6 +425,7 @@
     color: #292929;
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     margin: 0px;
     padding: 16px 24px 4px 0px;
 }
@@ -394,7 +435,7 @@
     color: #292929;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
-    font-weight: Normal;
+    font-weight: 400;
     padding: 0px 24px 19px 0px;
 }
 
@@ -419,6 +460,7 @@
     color: #FFF;
     font-size: 36px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .people .heading h2 {
@@ -426,7 +468,7 @@
     color: #FFF;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 .people .photobar {
@@ -435,19 +477,23 @@
 }
 
 .people .photobar .photos {
-    width: 1215px;
+    width: 1280px;
     margin: auto;
 }
 
 .people .photobar .photos .image {
     float: left;
     width: 180px;
-    width: 180px;
+    height: 180px;
     padding: 17px 0px 10px;
 }
 
 .people .photobar .photos .i {
-    margin-left: 40px;
+    margin-left: 45px;
+}
+
+.people .photobar .photos .l {
+    margin-left: 95px;
 }
 
 .people .photobar .photos .image img {
@@ -463,7 +509,7 @@
     color: #FFF;
     border-style: solid;
     border-width: 2px;
-    margin: 90px 0px 0px 55px;
+    margin: 90px 0px 0px 70px;
 }
 
 .people .photobar .photos .auro img {
@@ -494,7 +540,7 @@
     font-size: 40px;
     color: #292929;
     font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .message .input {
@@ -512,6 +558,7 @@
     width: 272px;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     color: #292929;
     padding: 10px 13px 10px 13px;
     border-color: #686868;
@@ -552,6 +599,8 @@
     border-bottom-style: solid;
     border-width: 2px;
     border-color: #3D3D3D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 .footer .navbar a {
@@ -571,7 +620,7 @@
 
 .footer .bg {
     width: 100%;
-    background-color: rgba(21, 21, 21, 0.8);
+    background-color: rgba(21, 21, 21, 0.6);
 }
 
 .footer .containt {
@@ -593,7 +642,7 @@
     margin-top: 0px;
     font-size: 14px;
     font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .footer .info a {
@@ -601,6 +650,7 @@
     margin-left: 0px;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     color: #BEBEBE;
     text-decoration: none;
 }
@@ -610,11 +660,15 @@
 }
 
 .copywrite {
-    margin-bottom: 0px;
     width: 100%;
     height: 50px;
     font-size: 12px;
-    background-color: #F79421;
+    background-color: #363636;
+}
+
+.copy {
+    width: 1280px;
+    margin: auto;
 }
 
 .copywrite .ctext {
@@ -622,12 +676,12 @@
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     color: #FFF;
-    margin: 5px 0px 0px 110px;
+    margin-top: 5px;
 }
 
 .copywrite .sicon {
     float: right;
-    margin: 13px 110px;
+    margin-top: 12px;
 }
 
 .copywrite .icon img {
